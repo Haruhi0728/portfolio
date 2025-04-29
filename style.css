@@ -7,11 +7,22 @@ html {
       Meiryo,
       sans-serif;
 }
+
+.header {
+    border-bottom: 2px solid #ccc;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
 body {
+    /*white-space: nowrap;*/
     background-color: white;
     color: black;
     font-size: 16px;
-    padding: 2rem;
+    padding: 2rem; 
 }
 
 h1 {
@@ -19,6 +30,23 @@ h1 {
     margin-bottom: 1rem;
 }
 
-li {
+/*li {
     list-style-type: number;
+}*/
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+ol {
+list-style-type: decimal;
+background-color: #b0c4de;
+padding: 20px;
+border-radius: 10px
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
