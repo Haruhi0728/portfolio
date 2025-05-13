@@ -76,4 +76,5 @@ img{
     display: block;
     margin-bottom: 20px;
     max-width: 100px
+    height: auto;
 }
