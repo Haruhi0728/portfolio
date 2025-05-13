@@ -18,6 +18,8 @@ html {
 }
 
 body {
+    max-width: 800px;
+    margin:0 auto;
     /*white-space: nowrap;*/
     background-color: white;
     color: black;
