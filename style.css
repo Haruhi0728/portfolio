@@ -41,14 +41,31 @@ h1 {
     margin-top: 40px;
     margin-bottom: 5px;
 }
-ol {
+
+.header-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #b0c4de;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-nav li{
+    list-style-type: decimal;
+    font-weight: bold;
+}
+/*ol {
 list-style-type: decimal;
 background-color: #b0c4de;
 padding: 20px;
 border-radius: 10px;
 max-width: 600px;
 margin: 0 auto;
-}
+}*/
 
 ul {
     list-style-type: disc;
